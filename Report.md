@@ -219,11 +219,11 @@ The fastest agent solved the environment after after 250 Episodes. *Figure 4* sh
 
 Before the fastest Agent, two more successful Training runs were made. The first agent (see *Figure 7*, *Figure 8*, and  *Figure 9*) had a more complex actor critic network due to the increased units of the first and second layers (FC1 Units = 128, FC2 Units = 256). In addition, the Gradient Updates were set to 4. Other than that the Hyperparameters were left the same compared to the final agent. In *Figure 8* one can observe the Reward Score for each episode, the rolling average of the reward over 100 episodes, and the target score. Finally, in *Figure 9* one can see the trained agent absolve the desired task of continously reaching the ball by applying force accordingly on the two joints of the reacher arm.
 
-![Trainings Process of first agent](/results/training_scores/training_scores_trial_Final_Agent_01.png)
+![Trainings Consoleof first agent](/results/training_scores/TrainingConsole_Agent_01.png)
 
 *Figure 7: Output on the console during and after successful training of the first agent*
 
-![Trainings Consoleof first agent](/results/training_scores/TrainingConsole_Agent_01.png)
+![Trainings Process of first agent](/results/training_scores/training_scores_trial_Final_Agent_01.png)
 
 *Figure 8: Training scores of the first successful agent*
 
@@ -233,11 +233,13 @@ Before the fastest Agent, two more successful Training runs were made. The first
 
 The second successufl agent took even longer to solve the environemnt. After 444 episodes, the agent solved the environment. The adjustment made were only to the Gradient updates. They were increased from 4 to 10. The actor-critic network had the same number of units then the first successful agent. This increase led to a longer training process.  In *Figure 11* one can observe the Reward Score for each episode, the rolling average of the reward over 100 episodes, and the target score. For this agent one could see in *Figure 12* that the agent sometimes even loses the ball but then fixes its mistake and adjust the joints accordingly to reach the ball again.
 
-![Trainings Process of first agent](/results/training_scores/training_scores_trial_Final_Agent_02.png)
+![Trainings Consoleof first agent](/results/training_scores/TrainingConsole_Agent_02.png)
 
 *Figure 10: Output on the console during and after successful training of the first agent*
 
-![Trainings Consoleof first agent](/results/training_scores/TrainingConsole_Agent_02.png)
+
+![Trainings Process of first agent](/results/training_scores/training_scores_trial_Final_Agent_02.png)
+
 
 *Figure 11: Training scores of the second successful agent*
 
